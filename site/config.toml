@@ -1,4 +1,4 @@
-baseurl = "https://manajay.com/"
+baseurl = "https://resume-manajay.netlify.com"
 copyright = "&copy; 2017 Wei Wang"
 theme = "academic"
 enableEmoji = true
