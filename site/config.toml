@@ -1,0 +1,148 @@
+baseurl = "https://manajay.com/"
+copyright = "&copy; 2017 Wei Wang"
+theme = "academic"
+enableEmoji = true
+footnotereturnlinkcontents = "<sup>^</sup>"
+
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+
+# Enable analytics by entering your Google Analytics tracking ID
+googleAnalytics = ""
+
+# Default language to use (if you setup multilingual support)
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[params]
+  organization = "JAY站 (@manajay)"
+  organization_url = "https://manajay.com"
+  avatar = "portrait.jpg"
+  email = "manajay.dlj@manajay.com"
+  telegram = ""
+
+  # Enable Keybase in Contact section by entering your keybase.io username.
+  keybase = "manajay"
+
+  # Date format (refer to Go's date format: http://flippinggodateformat.com )
+  #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+  date_format = "2006-01-02"
+
+  # Enable global LaTeX math rendering?
+  #   If false, you can enable it locally on a per page basis.
+  math = false
+
+  highlight = true
+  highlight_languages = ["swift","objectivec","java"]
+  # highlight_style = "github"
+  # highlight_version = "9.9.0"
+
+  # Enable native social sharing buttons?
+  sharing = true
+
+  # Link custom CSS and JS assets
+  #   (relative to /static/css and /static/js respectively)
+  custom_css = ["main.css"]
+  custom_js  = []
+
+  # Publication types.
+  #   Used to categorize publications.
+  #   The index of the publication type in the list is used as its unique numerical identifier.
+  #   The numeric ID is used in a publication's frontmatter to categorize it.
+  #   The language can be edited below.
+  #   For multi-lingual sites, copy this block to each language section at the end of this file.
+  publication_types = [
+    'Uncategorized',  # 0
+    'Book',  # 1
+    'Book chapter'  # 2
+  ]
+
+  [[params.social]]
+    icon = "envelope"
+    icon_pack = "fa"
+    link = "mailto:manajay.dlj@gmail.com"
+
+  [[params.social]]
+    icon = "twitter"
+    icon_pack = "fa"
+    link = "//twitter.com/manajay_dlj"
+
+  [[params.social]]
+    icon = "weibo"
+    icon_pack = "fa"
+    link = "//weibo.com/manajay"
+
+  [[params.social]]
+    icon = "github"
+    icon_pack = "fa"
+    link = "//github.com/manajay"
+
+  [[menu.main]]
+    name = "Home"
+    url = "#about"
+    weight = 1
+
+  [[menu.main]]
+    name = "Projects"
+    url = "#projects_selected"
+    weight = 2
+
+  [[menu.main]]
+    name = "Experience"
+    url = "#experience"
+    weight = 5
+
+  [[menu.main]]
+    name = "Contact"
+    url = "#contact"
+    weight = 6
+
+  [[menu.main]]
+    name = "中文"
+    url = "/zh"
+    weight = 7
+
+  [[languages.zh.menu.main]]
+  name = "主页"
+  url = "#about"
+  weight = 1
+
+  [[languages.zh.menu.main]]
+    name = "项目"
+    url = "#projects_selected"
+    weight = 2
+
+
+  [[languages.zh.menu.main]]
+    name = "经历"
+    url = "#experience"
+    weight = 5
+
+  [[languages.zh.menu.main]]
+    name = "联系"
+    url = "#contact"
+    weight = 6
+  
+  [[languages.zh.menu.main]]
+    name = "English"
+    url = "../"
+    weight = 7
+
+[languages.en]
+  languageCode = "en-us"
+  title = "Resume - Lianjie Duan"
+  name = "Lianjie Duan"
+  role = "iOS Developer"
+  address = "Beijing, China"
+  office_hours = "Please send an email for appointment"
+
+[languages.zh]
+  languageCode = "zh"
+  title = "简历 - 段连洁"
+  name = "段 连洁"
+  role = "iOS Java 开发者"
+  address = "中国 北京 大兴"
+  office_hours = "预约会面请先邮件联系"
