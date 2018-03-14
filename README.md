@@ -94,6 +94,18 @@ Not an issue, as it states on the next line down,
 
 #### Cannot GET / 问题
 
-#### Unable to locate layout for "404": [404.html theme/404.html]
+空白页面 只显示 `Cannot GET /` , 原因是 `onevcat`项目中的依赖主题是另一个仓库, 所以我直接下载下来后,放到对应的`theme`目录下就好了
+
+#### netlify 部署问题
+
+描述
+```
+Current theme does not support Hugo version 0.17. Minimum version required is 0.18
+```
+
+[解决方法](https://discourse.gohugo.io/t/solved-netlify-deployment-errors-yet-nothing-errors-on-localhost/5895)
+
+
+
 
 
