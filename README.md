@@ -105,7 +105,19 @@ Current theme does not support Hugo version 0.17. Minimum version required is 0.
 
 [解决方法](https://discourse.gohugo.io/t/solved-netlify-deployment-errors-yet-nothing-errors-on-localhost/5895)
 
+[netlify官方设置环境变量](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/)
 
+```
+context.production.environment]
 
+  HUGO_VERSION = "0.18"
+  HUGO_ENV = "production"
+  HUGO_ENABLEGITINFO = "true"
+
+[context.deploy-preview.environment]
+ HUGO_VERSION = "0.18"
+```
+
+只要设置合适的`HUGO_VERSION`版本即可
 
 
