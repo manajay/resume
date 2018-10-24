@@ -23,6 +23,6 @@ weight = 1
 
 # Summary
 
-Lianjie Duan is a professional developer who focuses on iOS and Java now. He has strong knowledge of Swift, Objective-C and Java programming. With these skills, he created quite a few widely used applications. Lianjie Duan also loves traveling, reading and listening music. He is always willing to try new things, and keeping to learn from them.
+L.J. Twan is a professional developer who focuses on iOS and Java now. He has strong knowledge of Swift, Objective-C and Java programming. With these skills, he created quite a few widely used applications. L.J. Twan also loves traveling, reading and listening music. He is always willing to try new things, and keeping to learn from them.
 
 
