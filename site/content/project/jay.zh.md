@@ -6,7 +6,7 @@ summary = "这里是我展示自己的舞台。"
 image_preview = "JAY.jpg"
 tags = ["web"]
 
-external_link = "https://todayios.com"
+external_link = "https://www.todayios.com"
 
 +++
 
